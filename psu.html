@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head><!-- Bu linki tüm HTML sayfalarının <head> kısmına ekle -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" href="icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güç Kaynağı - Bilgisayar Parçaları</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <li><a href="pc-toplama.html"><i class="fas fa-tools"></i> PC Toplama</a></li>
+    <style>
+        .detail-page {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .detail-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 30px;
+        }
+        .detail-icon {
+            font-size: 60px;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+        .back-btn {
+            display: inline-block;
+            background: #2c3e50;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+        .back-btn:hover {
+            background: #3498db;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">PC<span style="color:#3498db;">Parça</span>Rehberi</a>
+        </div>
+    </nav>
+
+    <div class="detail-page">
+        <div class="detail-header">
+            <div class="detail-icon">
+                <i class="fas fa-plug"></i>
+            </div>
+            <h1>Güç Kaynağı (PSU)</h1>
+            <p>Power Supply Unit - Sisteme Güç Sağlayan Birim</p>
+        </div>
+
+        <div style="padding: 0 20px;">
+            <h2>Güç Kaynağı Nedir?</h2>
+            <p>PSU (Power Supply Unit), şebeke elektriğini bilgisayar bileşenlerinin kullanabileceği uygun voltaj ve akımlara dönüştüren kritik bileşendir.</p>
+            
+            <h3>Görevleri:</h3>
+            <ul style="margin: 20px 0 20px 30px;">
+                <li>AC elektriği DC'ye dönüştürmek</li>
+                <li>Farklı voltaj seviyeleri sağlamak (+12V, +5V, +3.3V)</li>
+                <li>Güç dalgalanmalarına karşı koruma</li>
+                <li>Verimli ve stabil güç dağıtımı</li>
+                <li>Aşırı yüke karşı koruma</li>
+            </ul>
+            
+            <h3>Teknik Özellikler:</h3>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <p><strong>Güç Kapasitesi:</strong> 500W, 650W, 750W, 850W, 1000W, 1200W+</p>
+                <p><strong>Verimlilik Sertifikası:</strong> 80 Plus White, Bronze, Gold, Platinum, Titanium</p>
+                <p><strong>Modülerlik:</strong> Non-modüler, Semi-modüler, Full-modüler</p>
+                <p><strong>Ana Bağlantılar:</strong> 24-pin ATX, 8-pin CPU, 6+2 pin PCIe</p>
+                <p><strong>Fan Boyutu:</strong> 120mm, 135mm, 140mm</p>
+                <p><strong>Garanti Süresi:</strong> 3-10 yıl</p>
+            </div>
+            
+            <h3>Önemli Kriterler:</h3>
+            <p><strong>Güç Hesaplama:</strong> Tüm bileşenlerin güç tüketimini topla + %20-30 ekle</p>
+            <p><strong>Kalite:</strong> Japon kondansatörler, yüksek kaliteli bileşenler</p>
+            <p><strong>Koruma:</strong> OCP, OVP, UVP, OPP, SCP, OTP korumaları</p>
+            <p><strong>Soğutma:</strong> Sessiz fan, sıfır RPM modu, termal kontrol</p>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="ssd.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Önceki: SSD
+            </a>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-home"></i> Ana Sayfa
+            </a>
+            <a href="kasa.html" class="back-btn" style="background: #2ecc71;">
+                Sonraki: Kasa <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Bilgisayar Parçaları Rehberi</p>
+            <p>Proje Ödevi - HTML/CSS Web Sitesi</p>
+        </div>
+    </footer>
+</body>
+</html>

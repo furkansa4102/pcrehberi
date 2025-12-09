@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head><!-- Bu linki tüm HTML sayfalarının <head> kısmına ekle -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" href="icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAM - Bilgisayar Parçaları</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <li><a href="pc-toplama.html"><i class="fas fa-tools"></i> PC Toplama</a></li>
+    <style>
+        .detail-page {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .detail-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 30px;
+        }
+        .detail-icon {
+            font-size: 60px;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+        .back-btn {
+            display: inline-block;
+            background: #2c3e50;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+        .back-btn:hover {
+            background: #3498db;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">PC<span style="color:#3498db;">Parça</span>Rehberi</a>
+        </div>
+    </nav>
+
+    <div class="detail-page">
+        <div class="detail-header">
+            <div class="detail-icon">
+                <i class="fas fa-memory"></i>
+            </div>
+            <h1>RAM (Random Access Memory)</h1>
+            <p>Geçici Bellek - Hızlı Veri Erişimi</p>
+        </div>
+
+        <div style="padding: 0 20px;">
+            <h2>RAM Nedir?</h2>
+            <p>RAM (Random Access Memory), bilgisayarın çalışma esnasında kullandığı geçici verileri depoladığı hızlı bellek birimidir.</p>
+            
+            <h3>Görevleri:</h3>
+            <ul style="margin: 20px 0 20px 30px;">
+                <li>Açık program ve işletim sistemi verilerini saklamak</li>
+                <li>İşlemciye hızlı veri erişimi sağlamak</li>
+                <li>Geçici dosyaları depolamak</li>
+                <li>Oyun ve uygulama performansını artırmak</li>
+            </ul>
+            
+            <h3>Teknik Özellikler:</h3>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <p><strong>Kapasite:</strong> 8GB, 16GB, 32GB, 64GB</p>
+                <p><strong>Tip:</strong> DDR4, DDR5</p>
+                <p><strong>Hız:</strong> 3200MHz, 3600MHz, 4800MHz, 6000MHz</p>
+                <p><strong>Gecikme (CL):</strong> CL16, CL18, CL32</p>
+                <p><strong>Voltaj:</strong> 1.2V - 1.35V</p>
+                <p><strong>Çift/Quad Channel:</strong> İki veya dört kanal desteği</p>
+            </div>
+            
+            <h3>RAM Çeşitleri:</h3>
+            <p><strong>DDR4:</strong> Yaygın kullanılan, dengeli performans</p>
+            <p><strong>DDR5:</strong> Yeni nesil, daha yüksek hız ve bant genişliği</p>
+            <p><strong>ECC RAM:</strong> Sunucular için hata düzeltme özellikli</p>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="anakart.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Önceki: Anakart
+            </a>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-home"></i> Ana Sayfa
+            </a>
+            <a href="ekrankarti.html" class="back-btn" style="background: #2ecc71;">
+                Sonraki: Ekran Kartı <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Bilgisayar Parçaları Rehberi</p>
+            <p>Proje Ödevi - HTML/CSS Web Sitesi</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head><!-- Bu linki tüm HTML sayfalarının <head> kısmına ekle -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" href="icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasa - Bilgisayar Parçaları</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <li><a href="pc-toplama.html"><i class="fas fa-tools"></i> PC Toplama</a></li>
+    <style>
+        .detail-page {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .detail-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 30px;
+        }
+        .detail-icon {
+            font-size: 60px;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+        .back-btn {
+            display: inline-block;
+            background: #2c3e50;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 30px;
+        }
+        .back-btn:hover {
+            background: #3498db;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">PC<span style="color:#3498db;">Parça</span>Rehberi</a>
+        </div>
+    </nav>
+
+    <div class="detail-page">
+        <div class="detail-header">
+            <div class="detail-icon">
+                <i class="fas fa-desktop"></i>
+            </div>
+            <h1>Kasa (Computer Case)</h1>
+            <p>Bilgisayar Bileşenlerini Koruyan Dış Yapı</p>
+        </div>
+
+        <div style="padding: 0 20px;">
+            <h2>Kasa Nedir?</h2>
+            <p>Bilgisayar kasası, tüm donanım bileşenlerini fiziksel olarak koruyan, soğutma sağlayan ve estetik sunan dış yapıdır.</p>
+            
+            <h3>Görevleri:</h3>
+            <ul style="margin: 20px 0 20px 30px;">
+                <li>Bileşenleri fiziksel hasarlardan korumak</li>
+                <li>Hava akışını yöneterek soğutma sağlamak</li>
+                <li>Toz filtreleme ve ses yalıtımı</li>
+                <li>Estetik görünüm ve RGB aydınlatma</li>
+                <li>Kablolama düzeni için alan sağlamak</li>
+            </ul>
+            
+            <h3>Teknik Özellikler:</h3>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <p><strong>Form Faktörü:</strong> ATX, Micro-ATX, Mini-ITX, E-ATX</p>
+                <p><strong>Boyutlar:</strong> Full Tower, Mid Tower, Mini Tower, SFF</p>
+                <p><strong>Fan Destekleri:</strong> 120mm, 140mm, 200mm, 240mm, 360mm radyatör</p>
+                <p><strong>GPU Uzunluğu:</strong> 300mm, 350mm, 400mm+</p>
+                <p><strong>PSU Konumu:</strong> Alt/Üst, PSU shroud</p>
+                <p><strong>Malzeme:</strong> Çelik, alüminyum, tempered glass, plastik</p>
+            </div>
+            
+            <h3>Önemli Özellikler:</h3>
+            <p><strong>Soğutma:</strong> Ön/Üst/Arka fan slotları, radyatör desteği, mesh panel</p>
+            <p><strong>Kablolama:</strong> Arka panel boşluğu, velcro bantlar, PSU shroud</p>
+            <p><strong>Genişleme:</strong> PCIe slotları, drive bay'lar, SSD montaj noktaları</p>
+            <p><strong>Portlar:</strong> USB 3.0, USB-C, audio, fan kontrol, RGB kontrol</p>
+            <p><strong>Filtreler:</strong> Toz filtresi (ön, üst, alt), kolay temizlenebilir</p>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="psu.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Önceki: Güç Kaynağı
+            </a>
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-home"></i> Ana Sayfa
+            </a>
+            <a href="sogutma.html" class="back-btn" style="background: #2ecc71;">
+                Sonraki: Soğutma <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Bilgisayar Parçaları Rehberi</p>
+            <p>Proje Ödevi - HTML/CSS Web Sitesi</p>
+        </div>
+    </footer>
+</body>
+</html>
